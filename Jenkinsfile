@@ -14,7 +14,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo 'Repo Cloning from git...'
-                git branch: 'main', url: 'https://github.com/masimgul81/mega_proj.git'
+                git branch: 'main', url: 'https://github.com/masimgul81/testtt.git'
             }
         }
         stage('Build Docker Image') {
